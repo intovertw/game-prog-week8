@@ -280,7 +280,7 @@ MeshRenderer:
   m_GameObject: {fileID: 441361926}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -372,15 +372,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 441361926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 387789c46fac90c49af7729286dae958, type: 3}
+  m_Script: {fileID: 11500000, guid: d4dc389628182f24887b37e75d154111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMoveSpeed: 0
-  moveSpeed: 10
-  rotSpeed: 10
-  jumpVel: 0.5
   rb: {fileID: 441361931}
-  grounded: 0
+  isGrounded: 0
+  isCoin: 0
   score: 0
 --- !u!1 &616071896
 GameObject:
